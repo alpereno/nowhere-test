@@ -153,7 +153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 068558ef3914fe64cb25d076ced72e5c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _spawnSound: {fileID: 377150847}
+  _spawnSound: {fileID: 8300000, guid: 8cbe1afa6e1991144975d55d24be0762, type: 3}
+  _deleteSound: {fileID: 8300000, guid: f6dbc8f90f8594040a07308b6a62aa15, type: 3}
 --- !u!4 &377150846
 Transform:
   m_ObjectHideFlags: 0
@@ -179,7 +180,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 8cbe1afa6e1991144975d55d24be0762, type: 3}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -523,7 +524,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4e2f1d447ee04904cabb0f15612e6a18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ballPrefab: {fileID: 6070535086427302677, guid: 5ff37185eec304c4283a5f245024b61b, type: 3}
+  _ballPrefab: {fileID: 9160467183672747952, guid: 5ff37185eec304c4283a5f245024b61b, type: 3}
+  _colorOptions: []
 --- !u!4 &630740710
 Transform:
   m_ObjectHideFlags: 0
